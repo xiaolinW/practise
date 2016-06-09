@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ACF4F71D091391007B3C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACF4F61D091391007B3C51 /* main.m */; };
+		04ACF4FA1D091391007B3C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACF4F91D091391007B3C51 /* AppDelegate.m */; };
+		04ACF4FD1D091391007B3C51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACF4FC1D091391007B3C51 /* ViewController.m */; };
+		04ACF5001D091391007B3C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ACF4FE1D091391007B3C51 /* Main.storyboard */; };
+		04ACF5031D091391007B3C51 /* CustemKeyborad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04ACF5011D091391007B3C51 /* CustemKeyborad.xcdatamodeld */; };
+		04ACF5051D091391007B3C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ACF5041D091391007B3C51 /* Assets.xcassets */; };
+		04ACF5081D091391007B3C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ACF5061D091391007B3C51 /* LaunchScreen.storyboard */; };
+		04ACF5131D091392007B3C51 /* CustemKeyboradTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACF5121D091392007B3C51 /* CustemKeyboradTests.m */; };
+		04ACF51E1D091392007B3C51 /* CustemKeyboradUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACF51D1D091392007B3C51 /* CustemKeyboradUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04ACF50F1D091392007B3C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ACF4EA1D091391007B3C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ACF4F11D091391007B3C51;
+			remoteInfo = CustemKeyborad;
+		};
+		04ACF51A1D091392007B3C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ACF4EA1D091391007B3C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ACF4F11D091391007B3C51;
+			remoteInfo = CustemKeyborad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04ACF4F21D091391007B3C51 /* CustemKeyborad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustemKeyborad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACF4F61D091391007B3C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04ACF4F81D091391007B3C51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04ACF4F91D091391007B3C51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04ACF4FB1D091391007B3C51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04ACF4FC1D091391007B3C51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04ACF4FF1D091391007B3C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ACF5021D091391007B3C51 /* CustemKeyborad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustemKeyborad.xcdatamodel; sourceTree = "<group>"; };
+		04ACF5041D091391007B3C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ACF5071D091391007B3C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04ACF5091D091391007B3C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACF50E1D091392007B3C51 /* CustemKeyboradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustemKeyboradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACF5121D091392007B3C51 /* CustemKeyboradTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustemKeyboradTests.m; sourceTree = "<group>"; };
+		04ACF5141D091392007B3C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ACF5191D091392007B3C51 /* CustemKeyboradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustemKeyboradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ACF51D1D091392007B3C51 /* CustemKeyboradUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustemKeyboradUITests.m; sourceTree = "<group>"; };
+		04ACF51F1D091392007B3C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ACF4EF1D091391007B3C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACF50B1D091392007B3C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACF5161D091392007B3C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ACF4E91D091391007B3C51 = {
+			isa = PBXGroup;
+			children = (
+				04ACF4F41D091391007B3C51 /* CustemKeyborad */,
+				04ACF5111D091392007B3C51 /* CustemKeyboradTests */,
+				04ACF51C1D091392007B3C51 /* CustemKeyboradUITests */,
+				04ACF4F31D091391007B3C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ACF4F31D091391007B3C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ACF4F21D091391007B3C51 /* CustemKeyborad.app */,
+				04ACF50E1D091392007B3C51 /* CustemKeyboradTests.xctest */,
+				04ACF5191D091392007B3C51 /* CustemKeyboradUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ACF4F41D091391007B3C51 /* CustemKeyborad */ = {
+			isa = PBXGroup;
+			children = (
+				04ACF4F81D091391007B3C51 /* AppDelegate.h */,
+				04ACF4F91D091391007B3C51 /* AppDelegate.m */,
+				04ACF4FB1D091391007B3C51 /* ViewController.h */,
+				04ACF4FC1D091391007B3C51 /* ViewController.m */,
+				04ACF4FE1D091391007B3C51 /* Main.storyboard */,
+				04ACF5041D091391007B3C51 /* Assets.xcassets */,
+				04ACF5061D091391007B3C51 /* LaunchScreen.storyboard */,
+				04ACF5091D091391007B3C51 /* Info.plist */,
+				04ACF5011D091391007B3C51 /* CustemKeyborad.xcdatamodeld */,
+				04ACF4F51D091391007B3C51 /* Supporting Files */,
+			);
+			path = CustemKeyborad;
+			sourceTree = "<group>";
+		};
+		04ACF4F51D091391007B3C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04ACF4F61D091391007B3C51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04ACF5111D091392007B3C51 /* CustemKeyboradTests */ = {
+			isa = PBXGroup;
+			children = (
+				04ACF5121D091392007B3C51 /* CustemKeyboradTests.m */,
+				04ACF5141D091392007B3C51 /* Info.plist */,
+			);
+			path = CustemKeyboradTests;
+			sourceTree = "<group>";
+		};
+		04ACF51C1D091392007B3C51 /* CustemKeyboradUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04ACF51D1D091392007B3C51 /* CustemKeyboradUITests.m */,
+				04ACF51F1D091392007B3C51 /* Info.plist */,
+			);
+			path = CustemKeyboradUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ACF4F11D091391007B3C51 /* CustemKeyborad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACF5221D091392007B3C51 /* Build configuration list for PBXNativeTarget "CustemKeyborad" */;
+			buildPhases = (
+				04ACF4EE1D091391007B3C51 /* Sources */,
+				04ACF4EF1D091391007B3C51 /* Frameworks */,
+				04ACF4F01D091391007B3C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustemKeyborad;
+			productName = CustemKeyborad;
+			productReference = 04ACF4F21D091391007B3C51 /* CustemKeyborad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04ACF50D1D091392007B3C51 /* CustemKeyboradTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACF5251D091392007B3C51 /* Build configuration list for PBXNativeTarget "CustemKeyboradTests" */;
+			buildPhases = (
+				04ACF50A1D091392007B3C51 /* Sources */,
+				04ACF50B1D091392007B3C51 /* Frameworks */,
+				04ACF50C1D091392007B3C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ACF5101D091392007B3C51 /* PBXTargetDependency */,
+			);
+			name = CustemKeyboradTests;
+			productName = CustemKeyboradTests;
+			productReference = 04ACF50E1D091392007B3C51 /* CustemKeyboradTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04ACF5181D091392007B3C51 /* CustemKeyboradUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ACF5281D091392007B3C51 /* Build configuration list for PBXNativeTarget "CustemKeyboradUITests" */;
+			buildPhases = (
+				04ACF5151D091392007B3C51 /* Sources */,
+				04ACF5161D091392007B3C51 /* Frameworks */,
+				04ACF5171D091392007B3C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ACF51B1D091392007B3C51 /* PBXTargetDependency */,
+			);
+			name = CustemKeyboradUITests;
+			productName = CustemKeyboradUITests;
+			productReference = 04ACF5191D091392007B3C51 /* CustemKeyboradUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ACF4EA1D091391007B3C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04ACF4F11D091391007B3C51 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04ACF50D1D091392007B3C51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04ACF4F11D091391007B3C51;
+					};
+					04ACF5181D091392007B3C51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04ACF4F11D091391007B3C51;
+					};
+				};
+			};
+			buildConfigurationList = 04ACF4ED1D091391007B3C51 /* Build configuration list for PBXProject "CustemKeyborad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ACF4E91D091391007B3C51;
+			productRefGroup = 04ACF4F31D091391007B3C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ACF4F11D091391007B3C51 /* CustemKeyborad */,
+				04ACF50D1D091392007B3C51 /* CustemKeyboradTests */,
+				04ACF5181D091392007B3C51 /* CustemKeyboradUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ACF4F01D091391007B3C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACF5081D091391007B3C51 /* LaunchScreen.storyboard in Resources */,
+				04ACF5051D091391007B3C51 /* Assets.xcassets in Resources */,
+				04ACF5001D091391007B3C51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACF50C1D091392007B3C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACF5171D091392007B3C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ACF4EE1D091391007B3C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACF4FD1D091391007B3C51 /* ViewController.m in Sources */,
+				04ACF5031D091391007B3C51 /* CustemKeyborad.xcdatamodeld in Sources */,
+				04ACF4FA1D091391007B3C51 /* AppDelegate.m in Sources */,
+				04ACF4F71D091391007B3C51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACF50A1D091392007B3C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACF5131D091392007B3C51 /* CustemKeyboradTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ACF5151D091392007B3C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ACF51E1D091392007B3C51 /* CustemKeyboradUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04ACF5101D091392007B3C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ACF4F11D091391007B3C51 /* CustemKeyborad */;
+			targetProxy = 04ACF50F1D091392007B3C51 /* PBXContainerItemProxy */;
+		};
+		04ACF51B1D091392007B3C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ACF4F11D091391007B3C51 /* CustemKeyborad */;
+			targetProxy = 04ACF51A1D091392007B3C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04ACF4FE1D091391007B3C51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ACF4FF1D091391007B3C51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04ACF5061D091391007B3C51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ACF5071D091391007B3C51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04ACF5201D091392007B3C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ACF5211D091392007B3C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ACF5231D091392007B3C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustemKeyborad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lin.CustemKeyborad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04ACF5241D091392007B3C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustemKeyborad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lin.CustemKeyborad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04ACF5261D091392007B3C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustemKeyboradTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lin.CustemKeyboradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustemKeyborad.app/CustemKeyborad";
+			};
+			name = Debug;
+		};
+		04ACF5271D091392007B3C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustemKeyboradTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lin.CustemKeyboradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustemKeyborad.app/CustemKeyborad";
+			};
+			name = Release;
+		};
+		04ACF5291D091392007B3C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustemKeyboradUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lin.CustemKeyboradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustemKeyborad;
+			};
+			name = Debug;
+		};
+		04ACF52A1D091392007B3C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustemKeyboradUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lin.CustemKeyboradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustemKeyborad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ACF4ED1D091391007B3C51 /* Build configuration list for PBXProject "CustemKeyborad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACF5201D091392007B3C51 /* Debug */,
+				04ACF5211D091392007B3C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ACF5221D091392007B3C51 /* Build configuration list for PBXNativeTarget "CustemKeyborad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACF5231D091392007B3C51 /* Debug */,
+				04ACF5241D091392007B3C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04ACF5251D091392007B3C51 /* Build configuration list for PBXNativeTarget "CustemKeyboradTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACF5261D091392007B3C51 /* Debug */,
+				04ACF5271D091392007B3C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04ACF5281D091392007B3C51 /* Build configuration list for PBXNativeTarget "CustemKeyboradUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ACF5291D091392007B3C51 /* Debug */,
+				04ACF52A1D091392007B3C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04ACF5011D091391007B3C51 /* CustemKeyborad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04ACF5021D091391007B3C51 /* CustemKeyborad.xcdatamodel */,
+			);
+			currentVersion = 04ACF5021D091391007B3C51 /* CustemKeyborad.xcdatamodel */;
+			path = CustemKeyborad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04ACF4EA1D091391007B3C51 /* Project object */;
+}
